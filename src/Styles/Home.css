@@ -6,6 +6,7 @@
   align-items: center;
   text-align: center;
   padding-top: 120px;
+  margin-bottom: 100px;
 }
 
 .background-blur {
@@ -45,4 +46,38 @@
   border: none;
   font-weight: bolder;
   margin-top: 15px;
+}
+.home-page-2-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 70px;
+}
+.home-page-2{
+background: #2063d5;
+}
+.page-2-left img{
+    height: auto;
+    width: 550px;
+    border-radius: 15px;
+}
+.page-2-right h1 {
+font-size: 2rem;
+color: white;
+margin-bottom: 15px;
+}
+.page-2-right p {
+font-size: 1rem;
+color: white;
+}
+.read-more-button{
+     padding: 0 25px;
+  border-radius: 9999px;
+  height: 40px;
+  background-color:#FFFFFF ;
+  color: #5a7cb6;
+  border: none;
+  margin-top: 10px;
+  
 }
