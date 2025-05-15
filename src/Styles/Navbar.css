@@ -1,27 +1,65 @@
-/* Styles/Navbar.css */
+.navbar-container {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+  gap: 8rem;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  
+}
+.ahoma-image img {
+  width: 128px;
+}
 
-.navbar {
-    background-color: #333;
-    padding: 1rem;
-    text-align: center;
-  }
-  
-  .nav-menu {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .nav-menu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-  .nav-menu li a.active {
-    border-bottom: 2px solid yellow;
-  }
-  
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li a {
+  color: Black;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.nav-menu li a:hover {
+  border-bottom: 2px solid black;
+}
+
+.nav-menu li a.active {
+  border-bottom: 2px solid #2063d5;
+  color: #2063d5;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.signin-button {
+  padding: 0 35px;
+  border-radius: 9999px;
+  height: 40px;
+  background-color: white;
+  color: #2063d5;
+  border-color: #2063d5;
+  font-weight: bolder;
+}
+.Started-button {
+  padding: 0 45px;
+  border-radius: 9999px;
+  height: 40px;
+  background-color: #2063d5;
+  color: white;
+  border: none;
+  font-weight: bolder;
+}

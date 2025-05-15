@@ -1,0 +1,48 @@
+.page-with-image {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.background-blur {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/seamstress.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: -1; /* Ensures the background stays behind the content */
+}
+
+.page-with-image h2 {
+  color: #2063d5;
+  font-size: 2rem;
+}
+.page-with-image h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.page-with-image p {
+  font-size: 1rem;
+}
+
+.ahoma {
+  color: #2063d5;
+}
+.Started-button-2{
+    padding: 0 45px;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #2063d5;
+  color: white;
+  border: none;
+  font-weight: bolder;
+  margin-top: 15px;
+}
