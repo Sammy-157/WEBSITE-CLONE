@@ -1,3 +1,8 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .page-with-image {
   position: relative;
   min-height: 100vh;
@@ -25,13 +30,15 @@
 .page-with-image h2 {
   color: #2063d5;
   font-size: 2rem;
+  font-family: 'Lexend', sans-serif;
 }
 .page-with-image h1 {
   color: white;
   font-size: 2.5rem;
+  font-family: 'Lexend', sans-serif;
 }
 .page-with-image p {
-  font-size: 1rem;
+  font-family: 'Montseratt', sans-serif;
 }
 
 .ahoma {
@@ -41,7 +48,7 @@
     padding: 0 45px;
   border-radius: 10px;
   height: 40px;
-  background-color: #2063d5;
+  background-color: #4988f3;
   color: white;
   border: none;
   font-weight: bolder;
@@ -55,7 +62,7 @@
     padding: 70px;
 }
 .home-page-2{
-background: #2063d5;
+background: #4988f3;
 }
 .page-2-left img{
     height: auto;
@@ -66,10 +73,13 @@ background: #2063d5;
 font-size: 2rem;
 color: white;
 margin-bottom: 15px;
+font-family: 'Lexend', sans-serif;
 }
 .page-2-right p {
-font-size: 1rem;
 color: white;
+font-family: 'Montseratt', sans-serif;
+font-size: medium;
+
 }
 .read-more-button{
      padding: 0 25px;
@@ -78,6 +88,55 @@ color: white;
   background-color:#FFFFFF ;
   color: #5a7cb6;
   border: none;
-  margin-top: 10px;
+  margin-top: 15px;
   
+  
+}
+.home-page-3-contents{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+      margin-top: 80px;
+  
+}
+.page-3-right{
+   width: 50%;
+
+}
+.page-3-left{
+   width: 50%;
+   
+   
+}
+.page-3-left h1 {
+font-size: 2rem;
+color: #36454F;
+margin-bottom: 15px;
+font-family: 'Lexend', sans-serif;
+}
+.page-3-left p {
+color: #36454F;
+font-family: 'Montseratt', sans-serif;
+font-size: medium;
+}
+.last-p{
+  margin-top: 20px;
+}
+
+.page-3-right img{
+    height: auto;
+    width: 300px;
+}
+.page-3-right .image-1{
+  position: absolute;
+  transform: rotate(-10deg);
+  
+}
+.page-3-right .image-2{
+  position: relative;
+  left: 120px;
+  bottom: 10px;
+  transform: rotate(20deg);
+
 }
