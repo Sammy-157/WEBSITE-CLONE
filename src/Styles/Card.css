@@ -1,0 +1,59 @@
+.main-card{
+border-radius: 24px;
+border: 1px ;
+width: 350px;
+background-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.main-card-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+.image-div img {
+  width: 120px;
+  height: auto;             
+}
+
+.image-div {
+  width: 150px;             
+  height: 150px;            
+  border-radius: 50%;       
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  overflow: hidden;         
+  background-color: #f1f5f9;
+  margin-top: 20px;
+}
+.text-div{
+    text-align: center;
+    
+}
+.text-div p {
+    font-family: 'Montseratt', sans-serif;
+    color:#000000;
+}
+.head-div h1{ 
+    font-size: 20px;
+    color: #000000;
+}
+.number-div{
+    background-color: #4988f3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+  align-items: center;
+  justify-content: center;  
+  overflow: hidden;       
+}
+.number-div h1{
+    font-size: 20px;
+    color: #f1f5f9;
+}

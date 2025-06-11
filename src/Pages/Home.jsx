@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Home.css";
+import Card from "../Components/Card";
 
 const Home = () => {
   return (
@@ -91,6 +92,65 @@ const Home = () => {
                 src="src/assets/record_customer-DhwPfhu5.png"
                 alt="record-customer"
               ></img>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="home-page-4">
+        <div className="home-page-4-contents">
+          <div className="heading-4">
+            <h1>Get started in just</h1>
+            <h2>a few minutes</h2>
+          </div>
+
+          <div></div>
+
+          <div className="all-cards">
+            <div className="first-3-cards">
+              <Card
+                image="src/assets/Add-task-CKWdMuGf.png"
+                number="1"
+                head="Sign in"
+                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+              />
+
+              <Card
+                image="src/assets/Add-task-CKWdMuGf.png"
+                number="2"
+                head="Sign in"
+                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+              />
+
+              <Card
+                image="src/assets/Add-task-CKWdMuGf.png"
+                number="3"
+                head="Sign in"
+                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+              />
+            </div>
+
+            <div className="last-3-cards">
+              <Card
+                image="src/assets/Add-task-CKWdMuGf.png"
+                number="4"
+                head="Sign in"
+                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+              />
+
+              <Card
+                image="src/assets/Add-task-CKWdMuGf.png"
+                number="5"
+                head="Sign in"
+                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+              />
+
+              <Card
+                image="src/assets/Add-task-CKWdMuGf.png"
+                number="6"
+                head="Sign in"
+                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+              />
             </div>
           </div>
         </div>
