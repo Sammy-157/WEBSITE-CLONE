@@ -6,12 +6,12 @@ background-color: white;
 display: flex;
 align-items: center;
 justify-content: center;
+padding: 24px;
 }
 .main-card-contents{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    display: flex;
   align-items: center;
   justify-content: center;  
 }
@@ -29,7 +29,7 @@ justify-content: center;
   justify-content: center;  
   overflow: hidden;         
   background-color: #f1f5f9;
-  margin-top: 20px;
+  
 }
 .text-div{
     text-align: center;
@@ -38,10 +38,13 @@ justify-content: center;
 .text-div p {
     font-family: 'Montseratt', sans-serif;
     color:#000000;
+    font-size: 14px;
+   
 }
 .head-div h1{ 
     font-size: 20px;
     color: #000000;
+    font-family: 'Lexend', sans-serif;
 }
 .number-div{
     background-color: #4988f3;
@@ -56,4 +59,5 @@ justify-content: center;
 .number-div h1{
     font-size: 20px;
     color: #f1f5f9;
+    font-family: 'Lexend', sans-serif;
 }

@@ -150,7 +150,8 @@ font-size: medium;
 
 .heading-4{
   text-align: center;
-  margin-bottom: 90px;
+
+  padding-top: 60px;
  
 }
 .heading-4 h1,.heading-4 h2{
@@ -161,12 +162,15 @@ color: #535558;
 
 .first-3-cards{
   display: flex;
-  gap: 30px;
+  gap: 32px;
+ justify-content: space-between;
+ 
 }
 
 .last-3-cards{
   display: flex;
-  gap: 30px;
+  gap: 32px;
+
 }
 .all-cards{
   display: flex;
@@ -174,4 +178,8 @@ color: #535558;
   gap: 30px;
   align-items: center;
   justify-content: center;
+  padding: 64px;
+   
+  
+ 
 }

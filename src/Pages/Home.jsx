@@ -109,24 +109,24 @@ const Home = () => {
           <div className="all-cards">
             <div className="first-3-cards">
               <Card
-                image="src/assets/Add-task-CKWdMuGf.png"
+                image="src/assets/Girl-Sign-in-DyIxiyM9.png"
                 number="1"
-                head="Sign in"
+                head="Sign up"
                 text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
               />
 
               <Card
-                image="src/assets/Add-task-CKWdMuGf.png"
+                image="src/assets/Boy-sign-up-Dbg2vKtL.png"
                 number="2"
                 head="Sign in"
-                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+                text="Log in to your Ahoma account and access your personalized dashboard to manage all your activities."
               />
 
               <Card
-                image="src/assets/Add-task-CKWdMuGf.png"
+                image="src/assets/New-Entries-BnZnpsHE.png"
                 number="3"
-                head="Sign in"
-                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+                head="Add Customers"
+                text="Add detailed customer profiles, including their names and measurements, for efficient job management."
               />
             </div>
 
@@ -134,22 +134,22 @@ const Home = () => {
               <Card
                 image="src/assets/Add-task-CKWdMuGf.png"
                 number="4"
-                head="Sign in"
-                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+                head="Add jobs"
+                text="Assign new jobs to your customers and include all necessary details like deadlines and instructions."
               />
 
               <Card
-                image="src/assets/Add-task-CKWdMuGf.png"
+                image="src/assets/Successful-deal-DUGwm7KT.png"
                 number="5"
-                head="Sign in"
-                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+                head="Complete jobs"
+                text="Mark jobs as completed once the tailoring process is finished and ready for delivery."
               />
 
               <Card
-                image="src/assets/Add-task-CKWdMuGf.png"
+                image="src/assets/Contact-Ch0MW5fD.png"
                 number="6"
-                head="Sign in"
-                text="Create an account to unlock the full features of Ahoma and start managing your tailoring business seamlessly."
+                head="Notify Customers"
+                text="Send updates or notifications to customers to inform them when their jobs are ready for pickup or delivery."
               />
             </div>
           </div>
