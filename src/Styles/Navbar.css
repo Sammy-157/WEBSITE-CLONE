@@ -29,13 +29,26 @@
 }
 
 .nav-menu li a {
-  color: Black;
+  position: relative;
   text-decoration: none;
-  font-size: 1.2rem;
+  color: black;
 }
-.nav-menu li a:hover {
-  border-bottom: 2px solid black;
+
+.nav-menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 0;
+  background-color: black;
+  transition: width 0.4s ease;
 }
+
+.nav-menu li a:hover::after {
+  width: 100%; /* animate underline from left to right */
+}
+
 
 .nav-menu li a.active {
   border-bottom: 2px solid #2063d5;

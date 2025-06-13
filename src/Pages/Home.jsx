@@ -34,18 +34,15 @@ const Home = () => {
           <div className="page-2-right">
             <h1>Who we serve</h1>
             <p>
-              Ahoma is a platform designed to empower tailors, fashion
+              Ahoma is a platform designed to empower tailors, fashion<br/>
               designers, fabric
-            </p>
-            <p>
-              sellers, boutique owners, and customers by streamlining
+              sellers, boutique owners, and customers by<br/> streamlining
               management,
-            </p>
-            <p>
-              showcasing creativity, connecting businesses, and fostering growth
+              showcasing creativity, connecting<br/> businesses, and fostering growth
               across the
+              entire fashion<br/> ecosystem.
             </p>
-            <p>entire fashion ecosystem.</p>
+          
             <button className="read-more-button">Read More</button>
           </div>
         </div>
@@ -152,6 +149,28 @@ const Home = () => {
                 text="Send updates or notifications to customers to inform them when their jobs are ready for pickup or delivery."
               />
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="home-page-5">
+        <div className="home-page-5-contents">
+          <div className="page-5-left">
+            <img src="src/assets/ahoma.jpg " alt="nice guy"></img>
+          </div>
+
+          <div className="page-5-right">
+            <h1>Ahoma</h1>
+            <p>
+              Manage your tailoring business effortlessly with Ahoma. From<br/>
+              adding customers, recording their measurements to tracking<br/> job
+              progress, Ahoma empowers you to stay organized and<br/> deliver
+              exceptional service. Let us help you focus on creating<br/> stunning
+              designs while we handle the rest. Ready to transform<br/> your
+              workflow? Reach out to us today!
+            </p>
+
+            <button className="reach-us-button">Reach Us</button>
           </div>
         </div>
       </div>
