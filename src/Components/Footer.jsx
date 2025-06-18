@@ -3,7 +3,7 @@ import "../Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer>
       <div className="section-1">
         <div className="header-section">
           <h1>Your Best Fashion Platform</h1>
@@ -26,8 +26,7 @@ const Footer = () => {
             <br /> ecosystem.
           </p>
 
-          <img src="src/assets/Ahoma logo.png" alt="ahoma logo">
-          </img>
+          <img src="src/assets/Ahoma logo.png" alt="ahoma logo"></img>
         </div>
         <div className="part-2">
           <h1>Quick Links</h1>
@@ -50,27 +49,22 @@ const Footer = () => {
             <button>Subscribe</button>
           </div>
         </div>
+      </div>
+
+      <div className="section-3">
+        <div className="logos">
+          <img src="src/assets/twitter.png"></img>
+
+          <img src="src/assets/linkedin.png"></img>
+
+          <img src="src/assets/communication.png"></img>
+
+          <img src="src/assets/youtube.png"></img>
         </div>
 
-        <div className="section-3">
-<div className="logos">
-<img src="src/assets/twitter.png">
-</img>
-
-<img src="src/assets/linkedin.png">
-</img>
-
-<img src="src/assets/communication.png">
-</img>
-
-<img src="src/assets/youtube.png">
-</img>
-
-</div>
-
-        </div>
-      
-    </div>
+        <p>&copy; {new Date().getFullYear()} Ahoma.All Rights Reserved </p>
+      </div>
+    </footer>
   );
 };
 

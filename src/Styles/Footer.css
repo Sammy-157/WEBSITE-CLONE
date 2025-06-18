@@ -1,4 +1,4 @@
-.footer {
+footer {
   background-color: #4988f3;
   height: auto;
   display: flex;
@@ -106,7 +106,24 @@
     color: #4988f3;
     border: none;
 }
+.section-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 440px;
+    border-top: 1px solid;
+    border-color: #ffffff;
+    padding-top: 20px; 
+    padding-bottom: 50px;
+    margin-top: 40px;
 
+   
+}
 .logos img{
-    width: 40px;
+    width: 30px;
+   
+}
+.logos{
+    display: flex;
+    gap: 5px;
 }
