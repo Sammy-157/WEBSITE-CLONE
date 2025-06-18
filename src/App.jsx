@@ -5,6 +5,8 @@ import AboutUs from "./Pages/AboutUs";
 import ReachUs from "./Pages/ReachUs";
 import Support from "./Pages/Support";
 import Navbar from './Components/Navbar';
+import Footer from './Components/Footer';
+
 
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
       <Route path="/ReachUs" element={<ReachUs />} />
       <Route path="/Support" element={<Support />} />
     </Routes>
+
+    <Footer/>
   </Router>
   )
 }
