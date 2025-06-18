@@ -4,6 +4,7 @@ import "../Styles/Navbar.css";
 
 const Navbar = () => {
   return (
+    <div className="navbar-main">
     <nav className="navbar-container">
       <div className="nav-left">
         <div className="ahoma-image">
@@ -29,6 +30,7 @@ const Navbar = () => {
         <button className="Started-button">Get Started</button>
       </div>
     </nav>
+    </div>
   );
 };
 
