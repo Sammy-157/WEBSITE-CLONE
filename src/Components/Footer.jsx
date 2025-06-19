@@ -2,6 +2,12 @@ import React from "react";
 import "../Styles/Footer.css";
 
 const Footer = () => {
+  const listofNavs = [
+    { Home: "/" },
+    { About: "/about" },
+    { "Reach Us": "/reachUs" },
+    { Support: "/support" },
+  ];
   return (
     <footer>
       <div className="section-1">
@@ -31,10 +37,11 @@ const Footer = () => {
         <div className="part-2">
           <h1>Quick Links</h1>
           <div className="a-tags">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/ReachUs">Reach Us</a>
-            <a href="/support">Support</a>
+            {listofNavs.map((item, index) => (
+              <a href={Object.entries(item)[0][1]}>
+                {Object.entries(item)[0][0]}
+              </a>
+            ))}
           </div>
         </div>
         <div className="part-3">
